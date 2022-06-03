@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.footy {
+  width: 90vw;
+  max-width: 850px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.footy img {
+  width: 250px;
+  height: auto;
+  border-radius: 10%;
+  margin-top: 20px;
+}
+
+.footyp {
+  width: 90vw;
+  max-width: 600px;
+  margin: 5rem auto;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footy {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.header {
+  /* padding: 60px; */
+  text-align: center;
+  /* background: #1abc9c; */
+  background: url("https://cdn.pixabay.com/photo/2014/03/18/20/21/man-290186_960_720.jpg");
+  /* color: white; */
+  font-size: 30px;
+  /* border: 2px solid black; */
+  padding: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 850px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.myButton {
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color: #7892c2;
+  border-radius: 10px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 19px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  background-color: #476e9e;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+select {
+  max-width: 80%;
+}
+
+/* select { */
+/* Reset Select */
+/* appearance: none; */
+/* outline: 0;
+  border: 0;
+  box-shadow: none; */
+/* Personalize */
+/* flex: 1;
+  padding: 0 1em;
+  color: rgb(248, 87, 87);
+  background-color: var(--darkgray);
+  background-image: none;
+  cursor: pointer;
+} */
+/* Remove IE arrow */
+/* select::-ms-expand {
+  display: none;
+} */
+
+/* .content {
+  max-width: 600px;
+  margin: 0px auto;
+  padding: 20px;
+} */
+
+/* blog previews / list */
+/* .blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+} */
+/* .footy {
+  gap: 2rem;
+  margin: 3rem auto;
+}
+*/
+/* .footy img {
+  width: 250px;
+  height: auto;
+  border-radius: 10%;
+  margin: 10px;
+}
+
+.footy {
+  align-items: center;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+}
+@media screen and (min-width: 768px) {
+  .footy {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
